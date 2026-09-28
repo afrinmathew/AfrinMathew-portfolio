@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afrin Mathew — Computer Science Graduate & Developer</title>
+<meta name="description" content="Portfolio of Afrin Mathew, Computer Science graduate specialising in data-driven applications, machine learning and cloud automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="bg-orbs" aria-hidden="true">
+  <span class="orb orb-a"></span>
+  <span class="orb orb-b"></span>
+  <span class="orb orb-c"></span>
+</div>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav-glass" aria-label="Primary">
+    <a href="#home" class="nav-brand">AM</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
+      <li><a href="#about" class="nav-link" data-nav>About</a></li>
+      <li><a href="#experience" class="nav-link" data-nav>Experience</a></li>
+      <li><a href="#education" class="nav-link" data-nav>Education</a></li>
+      <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+      <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+      <li><a href="#certificates" class="nav-link" data-nav>Certificates</a></li>
+      <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="hero-kicker">Computer Science &amp; Applied Data Systems</p>
+        <h1 class="hero-name">Afrin Mathew</h1>
+        <p class="hero-role">Computer Science Graduate &amp; Software Developer</p>
+        <p class="hero-lede">
+          I build data-driven applications and decision-support tools — from
+          multi-criteria recommendation engines to cloud-automated pipelines —
+          grounded in a Master's in Computer Science and a foundation across
+          machine learning, databases and software engineering.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View my work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="pdf/Afrinresume.pdf" download="Afrinresume.pdf" class="btn btn-ghost btn-download" aria-label="Download Afrin Mathew CV">
+            <span>Download CV</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Contact me</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/afrinmathew" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="GitHub profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.76 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/afrin-mathew-biss2631s" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="LinkedIn profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1 4.98 2.12 4.98 3.5ZM.24 8.24h4.5V23H.24V8.24Zm7.7 0h4.31v2.01h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.36c0-1.52-.03-3.47-2.11-3.47-2.12 0-2.44 1.66-2.44 3.36V23h-4.5V8.24Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" style="--delay:120ms">
+        <button type="button" class="avatar-frame" id="avatarBtn" aria-haspopup="dialog" aria-controls="photoModal" aria-label="View enlarged profile photo">
+          <span class="avatar-glass">
+            <img src="images/profile.jpg" alt="Afrin Mathew" class="avatar-img">
+          </span>
+          <span class="avatar-ring"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="reveal">
+        <h2 class="section-title">About</h2>
+        <p class="section-text">
+          I'm a Computer Science graduate currently completing an Advanced
+          Master's degree at the University of Leicester, building on a
+          first-class foundation from the University of West London. My work
+          sits at the intersection of data analysis, machine learning and
+          software engineering — I enjoy taking a real decision problem,
+          modelling it properly, and shipping it as something people can
+          actually use.
+        </p>
+        <p class="section-text">
+          That shows up most clearly in my travel recommender system, where I
+          combined multi-criteria decision-making methods with an interactive
+          Streamlit interface. Alongside my technical coursework in big data,
+          cybersecurity and cloud automation, I've also spent time in
+          customer-facing and IT support roles, which shaped how I
+          communicate technical ideas and work within a team under pressure.
+        </p>
+        <p class="section-text">
+          I'm currently looking for graduate software development and data
+          roles where I can apply this mix of analytical thinking and
+          practical engineering.
+        </p>
+      </div>
+
+      <div class="about-cards reveal" style="--delay:120ms">
+        <div class="glass-card info-card">
+          <span class="info-label">Focus</span>
+          <span class="info-value">Data-driven applications &amp; ML</span>
+        </div>
+        <div class="glass-card info-card">
+          <span class="info-label">Currently studying</span>
+          <span class="info-value">MSc Computer Science, University of Leicester</span>
+        </div>
+        <div class="glass-card info-card">
+          <span class="info-label">Based in</span>
+          <span class="info-value">Leicester, England</span>
+        </div>
+        <div class="glass-card info-card">
+          <span class="info-label">Looking for</span>
+          <span class="info-value">Graduate software / data roles</span>
+        </div>
+        <div class="glass-card info-card">
+          <span class="info-label">Also bring</span>
+          <span class="info-value">Customer service &amp; IT support experience</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <ol class="timeline">
+
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Team Member</h3>
+                <p class="tl-company">Welcome Break – Taco Bell · Leicester, England</p>
+              </div>
+              <span class="tl-dates">May 2025 – Present</span>
+            </div>
+            <ul class="tl-list">
+              <li>Played a vital role within a fast-paced team, coordinating with colleagues to ensure seamless operations and meet service targets during peak hours.</li>
+              <li>Delivered professional service to a diverse customer base, using active listening and empathy to resolve inquiries and improve the customer experience.</li>
+              <li>Maintained reliability and prioritised tasks efficiently in a high-pressure environment while holding a high standard of accuracy and performance.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item reveal" style="--delay:80ms">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Junior IT Executive</h3>
+                <p class="tl-company">Threads (Gems Foundation) · Dubai, UAE</p>
+              </div>
+              <span class="tl-dates">Jul 2023 – Sep 2023</span>
+            </div>
+            <ul class="tl-list">
+              <li>Conducted technical fieldwork across multiple schools, installing accounting software and assessing server connections.</li>
+              <li>Provided technical support and troubleshooting for end-users, delivering solutions that improved system performance.</li>
+              <li>Strengthened core technical skills and built strong client relationships within the educational community.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item reveal" style="--delay:160ms">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Sales Representative</h3>
+                <p class="tl-company">Threads Retail Store · Dubai, UAE</p>
+              </div>
+              <span class="tl-dates">Jun 2022 – Sep 2022</span>
+            </div>
+            <ul class="tl-list">
+              <li>Built interpersonal communication and customer relations skills through daily interaction with a diverse customer base.</li>
+              <li>Developed a sharper understanding of customer preferences, and the value of patience, empathy and active listening.</li>
+              <li>Represented the brand professionally and effectively addressed customer needs.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <ol class="timeline">
+
+        <li class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Advanced Master's in Computer Science</h3>
+                <p class="tl-company">University of Leicester · Leicester, UK</p>
+              </div>
+              <span class="tl-dates">Sep 2024 – Jul 2026</span>
+            </div>
+            <p class="tl-note"><strong>Concentrations:</strong> Computational Intelligence &amp; Software Engineering, Big Data &amp; Predictive Analytics, Cybersecurity Foundations, Cloud Computing &amp; Automation, Service-Oriented Architectures.</p>
+            <p class="tl-note"><strong>Relevant coursework:</strong> Analysis &amp; Design of Algorithms, Mobile &amp; Web Application Development, Agile &amp; Cloud Automation, Individual Industry Project.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item reveal" style="--delay:100ms">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">BSc Computer Science (Hons)</h3>
+                <p class="tl-company">University of West London, RAK Campus · UAE</p>
+              </div>
+              <span class="tl-dates">Sep 2021 – May 2024</span>
+            </div>
+            <p class="tl-note"><strong>Concentrations:</strong> Artificial Intelligence &amp; Machine Learning, Databases &amp; Data Analytics, Cyber Security, Theory of Computation, Human-Centred Computing.</p>
+            <p class="tl-note"><strong>Relevant coursework:</strong> Algorithms &amp; Data Structures, Programming, Information Systems &amp; Databases, Mobile &amp; Web Application Development, Computer Architecture, Data Communications, Mathematics for Computing.</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="project-feature glass-card reveal">
+        <div class="project-visual" aria-hidden="true">
+          <div class="project-visual-inner">
+            <svg viewBox="0 0 200 140" width="100%" height="100%" fill="none">
+              <rect x="10" y="90" width="20" height="35" rx="3" fill="var(--accent)" opacity="0.55"/>
+              <rect x="40" y="60" width="20" height="65" rx="3" fill="var(--accent)" opacity="0.75"/>
+              <rect x="70" y="30" width="20" height="95" rx="3" fill="var(--accent)"/>
+              <rect x="100" y="70" width="20" height="55" rx="3" fill="var(--accent)" opacity="0.65"/>
+              <rect x="130" y="45" width="20" height="80" rx="3" fill="var(--accent)" opacity="0.85"/>
+              <circle cx="160" cy="30" r="18" stroke="var(--ink)" stroke-opacity="0.15" stroke-width="1.5"/>
+              <circle cx="160" cy="30" r="8" fill="var(--ink)" fill-opacity="0.1"/>
+            </svg>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">MCDM-Based Travel Recommender System</h3>
+          <p class="project-desc">
+            A personalised travel recommendation system that ranks and
+            suggests destinations using Multi-Criteria Decision Making. I
+            implemented TOPSIS and AHP to evaluate destinations against
+            user-defined preferences such as budget, climate, safety and
+            attractions, then built an interactive Streamlit interface so
+            users can visualise recommendations and compare how each
+            algorithm ranks the same options.
+          </p>
+          <ul class="project-points">
+            <li>Implemented TOPSIS and AHP algorithms for multi-criteria ranking</li>
+            <li>Interactive Streamlit interface for live comparison of results</li>
+            <li>Data analysis and preference modelling with Pandas</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">TOPSIS</span>
+            <span class="tag">AHP</span>
+            <span class="tag">Git</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/afrinmathew/travel-recommender-system" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <span>View on GitHub</span>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="glass-card skill-group reveal">
+          <h3 class="skill-group-title">Programming Languages</h3>
+          <div class="pill-row">
+            <span class="pill">Python</span><span class="pill">Java</span><span class="pill">SQL</span>
+            <span class="pill">HTML</span><span class="pill">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal" style="--delay:60ms">
+          <h3 class="skill-group-title">Big Data &amp; Machine Learning</h3>
+          <div class="pill-row">
+            <span class="pill">Apache Spark (PySpark)</span><span class="pill">Pandas</span>
+            <span class="pill">NumPy</span><span class="pill">scikit-learn</span>
+            <span class="pill">Gradient-Boosted Trees</span><span class="pill">K-Means Clustering</span>
+            <span class="pill">MCDM (TOPSIS, AHP)</span><span class="pill">Feature Engineering</span>
+            <span class="pill">Data Mining</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal" style="--delay:120ms">
+          <h3 class="skill-group-title">Cloud &amp; Automation</h3>
+          <div class="pill-row">
+            <span class="pill">Azure Data Factory</span><span class="pill">Agile Cloud Automation</span>
+            <span class="pill">Power BI</span><span class="pill">Streamlit</span><span class="pill">Git</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal">
+          <h3 class="skill-group-title">Analysis &amp; Tools</h3>
+          <div class="pill-row">
+            <span class="pill">Microsoft Excel</span><span class="pill">Jupyter Notebook</span>
+            <span class="pill">Plotly</span><span class="pill">Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal" style="--delay:60ms">
+          <h3 class="skill-group-title">Databases</h3>
+          <div class="pill-row">
+            <span class="pill">Data Modeling (EERD)</span><span class="pill">SQL</span>
+            <span class="pill">DDL / DML</span><span class="pill">PL/SQL</span>
+            <span class="pill">Normalisation</span><span class="pill">Data Integrity &amp; Quality</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal" style="--delay:120ms">
+          <h3 class="skill-group-title">Software Design</h3>
+          <div class="pill-row">
+            <span class="pill">Analysis &amp; Design of Algorithms</span>
+            <span class="pill">Service-Oriented Architecture</span>
+            <span class="pill">Software Engineering Principles</span>
+            <span class="pill">Agile Methodologies</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal">
+          <h3 class="skill-group-title">Security &amp; Compliance</h3>
+          <div class="pill-row">
+            <span class="pill">Cybersecurity Foundations</span><span class="pill">RSA Cryptography</span>
+            <span class="pill">Digital Signatures</span><span class="pill">Authentication</span>
+            <span class="pill">GDPR</span><span class="pill">Data Governance</span>
+            <span class="pill">Anonymisation</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group reveal" style="--delay:60ms">
+          <h3 class="skill-group-title">Working Style</h3>
+          <div class="pill-row">
+            <span class="pill">Problem-Solving</span><span class="pill">Communication</span>
+            <span class="pill">Collaboration</span><span class="pill">Adaptability</span>
+            <span class="pill">Attention to Detail</span><span class="pill">Time Management</span>
+            <span class="pill">Leadership &amp; Initiative</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section id="certificates" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Certificates</h2>
+      <div class="certs-grid">
+
+        <article class="glass-card cert-card reveal">
+          <div class="cert-badge" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="6"/>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="cert-body">
+            <h3 class="cert-name">Microsoft Excel</h3>
+            <p class="cert-desc">Course Completion Certificate</p>
+          </div>
+          <div class="cert-actions">
+            <button type="button" class="btn btn-primary btn-sm cert-view-btn" data-cert-file="pdf/Excelcertificate .pdf" data-cert-title="Microsoft Excel" data-cert-desc="Course Completion Certificate">
+              <span>View Certificate</span>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="glass-card cert-card reveal" style="--delay:80ms">
+          <div class="cert-badge" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="6"/>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="cert-body">
+            <h3 class="cert-name">Power BI</h3>
+            <p class="cert-desc">Course Completion Certificate</p>
+          </div>
+          <div class="cert-actions">
+            <button type="button" class="btn btn-primary btn-sm cert-view-btn" data-cert-file="pdf/PowerBI.pdf" data-cert-title="Power BI" data-cert-desc="Course Completion Certificate">
+              <span>View Certificate</span>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section alt contact-section">
+    <div class="contact-orbs" aria-hidden="true"><span></span><span></span></div>
+    <div class="container contact-hero">
+
+      <div class="connect-intro reveal">
+        <h2 class="section-title connect-title">Let's Connect</h2>
+        <p class="connect-sub">
+          I'm actively looking for graduate software development and data
+          roles — reach out however works best for you.
+        </p>
+      </div>
+
+      <div class="connect-grid">
+
+        <a href="tel:+447780397624" class="glass-card connect-card reveal" aria-label="Call Afrin at +44 7780 397624">
+          <span class="connect-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.3 2.6 3.4 4.7 6 6l2-2c.3-.3.7-.4 1-.3 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V19c0 .6-.4 1-1 1C10.6 20 4 13.4 4 5c0-.6.4-1 1-1h3.1c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.3 1.1l-2 2.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="connect-text">
+            <span class="connect-label">Phone</span>
+            <span class="connect-value">+44 7780 397624</span>
+          </span>
+          <span class="connect-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+
+        <a href="mailto:afrinmathew11@gmail.com" class="glass-card connect-card reveal" style="--delay:60ms" aria-label="Email afrinmathew11@gmail.com">
+          <span class="connect-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m4.5 6.5 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="connect-text">
+            <span class="connect-label">Email</span>
+            <span class="connect-value">afrinmathew11@gmail.com</span>
+          </span>
+          <span class="connect-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/afrin-mathew-biss2631s" target="_blank" rel="noopener noreferrer" class="glass-card connect-card reveal" style="--delay:120ms" aria-label="Open LinkedIn profile">
+          <span class="connect-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1 4.98 2.12 4.98 3.5ZM.24 8.24h4.5V23H.24V8.24Zm7.7 0h4.31v2.01h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.36c0-1.52-.03-3.47-2.11-3.47-2.12 0-2.44 1.66-2.44 3.36V23h-4.5V8.24Z"/></svg>
+          </span>
+          <span class="connect-text">
+            <span class="connect-label">LinkedIn</span>
+            <span class="connect-value">afrin-mathew-biss2631s</span>
+          </span>
+          <span class="connect-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+
+        <a href="https://github.com/afrinmathew" target="_blank" rel="noopener noreferrer" class="glass-card connect-card reveal" style="--delay:180ms" aria-label="Open GitHub profile">
+          <span class="connect-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.76 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+          </span>
+          <span class="connect-text">
+            <span class="connect-label">GitHub</span>
+            <span class="connect-value">afrinmathew</span>
+          </span>
+          <span class="connect-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+
+      </div>
+
+      <p class="connect-location reveal" style="--delay:220ms">Based in Leicester, England</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">Afrin Mathew</p>
+      <p class="footer-role">Computer Science Graduate &amp; Software Developer</p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/afrinmathew" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/afrin-mathew-biss2631s" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      <a href="mailto:afrinmathew11@gmail.com">Email</a>
+    </div>
+    <div class="footer-meta">
+      <p>&copy; <span id="year"></span> Afrin Mathew. All rights reserved.</p>
+      <p class="footer-built">Built with HTML &amp; CSS.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ PROFILE PHOTO MODAL / LIGHTBOX ============ -->
+<div class="photo-modal" id="photoModal" role="dialog" aria-modal="true" aria-label="Enlarged profile photo of Afrin Mathew" aria-hidden="true">
+  <div class="photo-modal-backdrop" id="photoModalBackdrop"></div>
+  <div class="photo-modal-content">
+    <div class="photo-modal-card">
+      <button type="button" class="photo-modal-close" id="photoModalClose" aria-label="Close enlarged photo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <img src="images/profile.jpg" alt="Afrin Mathew" class="photo-modal-img">
+    </div>
+  </div>
+</div>
+
+<!-- ============ CERTIFICATE VIEWER MODAL ============ -->
+<div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-label="Certificate Viewer" aria-hidden="true">
+  <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+  <div class="cert-modal-dialog">
+    <div class="cert-modal-card glass-card">
+      <div class="cert-modal-header">
+        <div class="cert-modal-title-wrap">
+          <span class="cert-modal-badge" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </span>
+          <div>
+            <h3 class="cert-modal-title" id="certModalTitle">Certificate</h3>
+            <p class="cert-modal-sub" id="certModalSub">Course Completion Certificate</p>
+          </div>
+        </div>
+        <div class="cert-modal-actions">
+          <a href="#" id="certModalOpenTab" target="_blank" rel="noopener noreferrer" class="cert-action-btn" title="Open in new tab" aria-label="Open certificate in new tab">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span class="action-btn-text">Open Tab</span>
+          </a>
+          <a href="#" id="certModalDownload" download class="cert-action-btn" title="Download certificate" aria-label="Download certificate">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="action-btn-text">Download</span>
+          </a>
+          <button type="button" class="cert-modal-close" id="certModalClose" title="Close viewer" aria-label="Close certificate viewer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+      <div class="cert-modal-body">
+        <iframe id="certModalFrame" src="" title="Certificate Document Viewer" class="cert-iframe"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Profile photo lightbox modal ---------- */
+  const avatarBtn = document.getElementById('avatarBtn');
+  const photoModal = document.getElementById('photoModal');
+  const photoModalClose = document.getElementById('photoModalClose');
+  const photoModalBackdrop = document.getElementById('photoModalBackdrop');
+  let lastActiveElement = null;
+
+  const openModal = () => {
+    if (!photoModal) return;
+    lastActiveElement = document.activeElement;
+    photoModal.classList.add('is-open');
+    photoModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    if (photoModalClose) {
+      photoModalClose.focus();
+    }
+  };
+
+  const closeModal = () => {
+    if (!photoModal || !photoModal.classList.contains('is-open')) return;
+    photoModal.classList.remove('is-open');
+    photoModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
+      lastActiveElement.focus();
+    }
+  };
+
+  if (avatarBtn) {
+    avatarBtn.addEventListener('click', openModal);
+  }
+
+  if (photoModalClose) {
+    photoModalClose.addEventListener('click', closeModal);
+  }
+
+  if (photoModalBackdrop) {
+    photoModalBackdrop.addEventListener('click', closeModal);
+  }
+
+  if (photoModal) {
+    photoModal.addEventListener('click', (e) => {
+      if (!e.target.closest('.photo-modal-card')) {
+        closeModal();
+      }
+    });
+  }
+
+  /* ---------- Reusable Certificate Viewer Modal ---------- */
+  const certModal = document.getElementById('certModal');
+  const certModalClose = document.getElementById('certModalClose');
+  const certModalBackdrop = document.getElementById('certModalBackdrop');
+  const certModalFrame = document.getElementById('certModalFrame');
+  const certModalTitle = document.getElementById('certModalTitle');
+  const certModalSub = document.getElementById('certModalSub');
+  const certModalOpenTab = document.getElementById('certModalOpenTab');
+  const certModalDownload = document.getElementById('certModalDownload');
+  let lastCertTrigger = null;
+
+  const openCertModal = (file, title, desc) => {
+    if (!certModal || !certModalFrame) return;
+    lastCertTrigger = document.activeElement;
+    if (certModalTitle) certModalTitle.textContent = title;
+    if (certModalSub) certModalSub.textContent = desc;
+    if (certModalOpenTab) certModalOpenTab.href = file;
+    if (certModalDownload) {
+      certModalDownload.href = file;
+      const filename = file.split('/').pop() || 'certificate.pdf';
+      certModalDownload.setAttribute('download', filename);
+    }
+    certModalFrame.src = file;
+    certModal.classList.add('is-open');
+    certModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    if (certModalClose) certModalClose.focus();
+  };
+
+  const closeCertModal = () => {
+    if (!certModal || !certModal.classList.contains('is-open')) return;
+    certModal.classList.remove('is-open');
+    certModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+      if (!certModal.classList.contains('is-open') && certModalFrame) {
+        certModalFrame.src = '';
+      }
+    }, 280);
+    if (lastCertTrigger && typeof lastCertTrigger.focus === 'function') {
+      lastCertTrigger.focus();
+    }
+  };
+
+  document.querySelectorAll('.cert-view-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const file = btn.getAttribute('data-cert-file');
+      const title = btn.getAttribute('data-cert-title') || 'Certificate';
+      const desc = btn.getAttribute('data-cert-desc') || 'Course Completion Certificate';
+      if (file) openCertModal(file, title, desc);
+    });
+  });
+
+  if (certModalClose) certModalClose.addEventListener('click', closeCertModal);
+  if (certModalBackdrop) certModalBackdrop.addEventListener('click', closeCertModal);
+  if (certModal) {
+    certModal.addEventListener('click', (e) => {
+      if (!e.target.closest('.cert-modal-card')) {
+        closeCertModal();
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (photoModal && photoModal.classList.contains('is-open')) {
+        closeModal();
+      }
+      if (certModal && certModal.classList.contains('is-open')) {
+        closeCertModal();
+      }
+    }
+  });
+
+  /* ---------- Mobile nav toggle ---------- */
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  /* ---------- Scroll progress bar ---------- */
+  const progressBar = document.getElementById('scrollProgress');
+  const updateProgress = () => {
+    if (!progressBar) return;
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    progressBar.style.width = pct + '%';
+  };
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+
+  /* ---------- Scroll reveal ---------- */
+  const revealEls = document.querySelectorAll('.reveal');
+  if (reduceMotion) {
+    revealEls.forEach(el => el.classList.add('is-visible'));
+  } else if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('is-visible'));
+  }
+
+  /* ---------- Active nav link on scroll ---------- */
+  const sections = Array.from(document.querySelectorAll('main section[id]'));
+  const navAnchors = Array.from(document.querySelectorAll('.nav-link[data-nav]'));
+
+  const setActive = (id) => {
+    navAnchors.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === `#${id}`);
+    });
+  };
+
+  if ('IntersectionObserver' in window && sections.length) {
+    const navObserver = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(e => e.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActive(visible.target.id);
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] });
+
+    sections.forEach(s => navObserver.observe(s));
+  }
+});
+</script>
+</body>
+</html>
